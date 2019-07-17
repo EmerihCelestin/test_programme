@@ -24,6 +24,7 @@ require_relative "../lib/multiples"
   		expect(sum_of_multiple_of_3_or_5(11)).to eq(33)
   		expect(sum_of_multiple_of_3_or_5(-1)).to eq("Yo ! Je ne prends que les entiers naturels. TG.")
   		expect(sum_of_multiple_of_3_or_5(1.23)).to eq("Yo ! Je ne prends que les entiers naturels. TG.")
+  		expect(sum_of_multiple_of_3_or_5("chiffre")).to eq("Yo ! Je ne prends que les entiers naturels. TG.")
   		
 		end  	
 	end
